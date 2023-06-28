@@ -15,3 +15,26 @@ I want to learn this specialty in order to become a professional in my field
 * **HTML**
 * **CSS**
 * **VS Code**
+
+## Example code 
+
+```
+let a = 1
+let b = 2
+let sum = a + b 
+console.log(sum)
+
+```
+
+## Experience
+
+CV
+
+## Education
+
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+## Languages
+
+* **English:** A1
+* **Russian:** Native
