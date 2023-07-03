@@ -16,12 +16,12 @@ I want to learn this specialty in order to become a professional in my field
 * **CSS**
 * **VS Code**
 
-## Example code
+## Example code 
 
 ```
 let a = 1
 let b = 2
-let sum = a + b
+let sum = a + b 
 console.log(sum)
 ```
 
