@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #D3D3D3;
+    padding: 40px 40px 0 40px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #D3D3D3; */
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 30px 15px 30px 15px;
+}
+
+.nav-item {
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all 0.2s linear;
+}
+
+.nav-link:hover {
+     color: rgb(0, 0, 0, 0.6);
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.profile-title {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 35px;
+   border-bottom: 2px solid black;
+   padding-bottom: 5px;
+}
+
+.avatar {
+    text-align: center;
+}
+
+.avatar__img {
+    border-radius: 50%;
+}
+
+.contacts__title {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.contacts-item {
+    font-size: 20px;
+    padding: 2px;
+}
+
+.about {
+    margin-top: 50px;
+}
+
+.about__text {
+    font-size: 20px;
+}
+
+.skills {
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.example {
+    margin-top: 50px;
+}
+
+.example__code {
+    background-color: #b7b7b7;
+    padding: 15px 0 15px 0;
+}
+
+.experience {
+    margin-top: 50px;
+}
+
+.experience__link {
+    text-decoration: none;
+    color: black;
+}
+
+.experience__link:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: gray;
+    margin: 0 -40px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__git {
+    text-decoration: none;
+    color: black;
+}
+
+.footer__git:hover {
+    text-decoration: underline;
+
+}
+
+.footer__img {
+height: 30px;
+}
