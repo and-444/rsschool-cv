@@ -5,12 +5,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>About me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&family=PT+Sans&display=swap"
+        rel="stylesheet">
+    <title>CV</title>
 </head>
 
 <body>
-    <div class="avatar">
-        <img alt="avatar" src="img/363.png">
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#about me" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#example code" class="nav-link">Example code</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="avatar">
+                <img class="avatar__img" alt="avatar" src="assets/img/362.jpg">
+            </div>
+            <div class="profile-title">
+                <h1>Savin Andrey</h1>
+            </div>
+            <div id="contacts" class="contacts__title">
+                <h2>Contacts:</h2>
+                <ul class="contacts-list">
+                    <li class="contacts-item"><b>discord:</b> anderson333</li>
+                    <li class="contacts-item"><b>telegram:</b> Zabralo123</li>
+                    <li class="contacts-item"><b>vk:</b> andreyj_w</li>
+                </ul>
+            </div>
+            <div id="about me" class="about">
+                <h2>About me:</h2>
+                <div class="about__text">
+                    I want to learn this specialty in order to become a professional in my field
+                </div>
+            </div>
+            <div id="skills" class="skills">
+                <h2>Skills:</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">HTML</li>
+                    <li class="skills-item">CSS</li>
+                    <li class="skills-item">VS code</li>
+                </ul>
+            </div>
+            <div id="example code" class="example">
+                <h2>Example code:</h2>
+                <div class="example__code">
+                    <pre><code>
+    let a = 1
+    let b = 2
+    let sum = a + b
+    console.log(sum)
+                </code></pre>
+                </div>
+            </div>
+            <div id="experience" class="experience">
+                <h2>Experience:</h2>
+                <div class="experience__text">
+                    <ul>
+                        <li><a class="experience__link" href="https://and-444.github.io/rsschool-cv/cv">CV</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="education" class="education">
+                <h2>Education</h2>
+                <div class="education__text">
+                    <ul class="education-list">
+                        <li class="education-link">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="languages" class="languages">
+                <h2>Languages</h2>
+                <div class="languages__text">
+                    <ul class="languages-list">
+                        <li class="languages-link"><b>English:</b> A1</li>
+                        <li class="languages-link"><b>Russian:</b> Native</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__text">2023</div>
+            <a href="https://rs.school/js/" class="footer__git">and-444</a>
+            <a href="https://rs.school/js/" class="footer__rs"><img alt="rsschool" class="footer__img"
+                    src="/rsschool-cv/assets/img/rs_school_js.svg"></a>
+        </footer>
     </div>
 </body>
 
